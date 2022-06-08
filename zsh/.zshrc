@@ -1,5 +1,4 @@
-# Patrick's configuration file
-export PATH="/usr/local/sbin:$PATH"
+# path
 export PATH="/usr/local/sbin:$PATH"
 
 # colors
