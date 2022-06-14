@@ -1,0 +1,26 @@
+[alias]
+    l = log --pretty=oneline -n 20 --graph --abbrev-commit
+    s = status -s
+    contributors = shortlog --summary --numbered
+    aliases = config --get-regexp alias
+    whoami = config user.email
+
+[commit]
+    gpgsign = true
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+
+[color]
+    ui = auto
+
+[help]
+    autocorrect = 1
+
+[log]
+	date = default
+
+[init]
+    defaultBranch = main
