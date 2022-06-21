@@ -29,6 +29,10 @@ brew install nmap
 brew install openvpn
 brew install speedtest-cli
 
+# Install zsh plugins
+brew install zsh-autosuggestions
+brew zsh-syntax-highlighting
+
 # Install Source Code Pro font
 brew tap homebrew/cask-fonts
 brew install svn
