@@ -31,7 +31,7 @@ brew install speedtest-cli
 
 # Install zsh plugins
 brew install zsh-autosuggestions
-brew zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
 
 # Install Source Code Pro font
 brew tap homebrew/cask-fonts
