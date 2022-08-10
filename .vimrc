@@ -1,8 +1,9 @@
 set number
-set tabstop=4
+set tabstop=4 softtabstop=4
+set shiftwidth=4
 set expandtab
+set smartindent
 set autoindent
-set softtabstop=4
 syntax on
 
 " statusline
@@ -29,3 +30,4 @@ set statusline+=%#CursorIM#
 set statusline+=\ %3l:%-2c\ 
 set statusline+=%#Cursor# 
 set statusline+=\ %3p%%\ 
+
