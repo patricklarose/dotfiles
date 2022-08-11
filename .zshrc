@@ -1,25 +1,25 @@
-# path
+# Path
 export PATH="/usr/local/sbin:$PATH"
 
-# colors
+# Colors
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}[%{$fg[cyan]%}%n%{$fg[green]%}%{$fg[blue]%} %{$fg[cyan]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
 
-# basic auto/tab complete
+# Basic auto/tab complete
 autoload -U compinit && compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
-# remove paste highlighting
+# Remove paste highlighting
 zle_highlight=('paste:none')
 
-# plugins
+# Plugins
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# git
+# Git
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
@@ -28,7 +28,7 @@ RPROMPT='${vcs_info_msg_0_}'
 #PROMPT='${vcs_info_msg_0_}%# '
 zstyle ':vcs_info:git:*' formats '%b'
 
-# alias
+# Alias
 alias ls="ls -G"
 alias ll="ls -Galh"
 alias c="clear"
