@@ -1,3 +1,4 @@
+" General
 set number
 set tabstop=4 softtabstop=4
 set shiftwidth=4
@@ -6,7 +7,7 @@ set smartindent
 set autoindent
 syntax on
 
-" statusline
+" Statusline
 set laststatus=2
 set statusline= 
 set statusline+=%#DiffAdd#%{(mode()=='n')?'\ \ NORMAL\ ':''} 
@@ -30,4 +31,3 @@ set statusline+=%#CursorIM#
 set statusline+=\ %3l:%-2c\ 
 set statusline+=%#Cursor# 
 set statusline+=\ %3p%%\ 
-
