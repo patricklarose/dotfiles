@@ -12,7 +12,7 @@ fi
 dotfiles_dir=$PWD
 
 # Define the list of dotfiles to manage
-dotfiles=(".zshrc" ".vimrc" ".gitconfig" ".hushlogin" ".macos" "test.txt")
+dotfiles=(".zshrc" ".vimrc" ".gitconfig" ".hushlogin" ".macos")
 
 # Loop through the list of dotfiles
 for dotfile in "${dotfiles[@]}"; do
