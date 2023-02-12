@@ -11,3 +11,12 @@ These dotfiles make use of the following packages:
     * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [Vim](https://www.vim.org/)
 * [Git](https://git-scm.com/)
+
+## Installation
+
+> **Warning**
+> This script will overwrite files. Review code and customize before running.
+
+### Clone repository and run setup.sh
+
+```git clone https://github.com/patricklarose/dotfiles && cd dotfiles && sh setup.sh```
