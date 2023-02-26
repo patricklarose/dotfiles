@@ -43,3 +43,6 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 
 # Disable Notification Center and remove the menu bar icon
 launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
+
+# Show the battery percentage in the menu bar
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
