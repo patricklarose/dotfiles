@@ -46,3 +46,6 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.
 
 # Show the battery percentage in the menu bar
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
+# Disable Dashboard
+defaults write com.apple.dashboard mcx-disabled -bool true
