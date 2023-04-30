@@ -44,3 +44,4 @@ alias lnfix="find -L . -name . -o -type d -prune -o -type l -exec rm {} +"
 alias fixdisk="sudo diskutil unmountDisk force /dev/disk2 && sudo pkill -f fsck"
 alias cp='rsync -ah --progress'
 alias mv='rsync -ah --progress --remove-source-files'
+alias shredder="shred -n10 -uzfv"
