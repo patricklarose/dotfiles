@@ -28,7 +28,8 @@ brew install cask \
   speedtest-cli \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
-  font-source-code-pro
+  font-source-code-pro \
+  font-fira-code
 
 # Delete old and unused formulas/casks
 brew cleanup
