@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-# Install Homebrew | https://brew.sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Check if Homebrew is installed | https://brew.sh
+if ! command -v brew &> /dev/null; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
 # Update and upgrade Homebrew
 brew update && brew upgrade
