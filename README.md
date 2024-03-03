@@ -14,7 +14,7 @@ These dotfiles make use of the following packages:
 
 ## Installation
 
-> **Warning**
+> [!WARNING]
 > This script will overwrite files. Review code and customize before running.
 
 ### Clone repository and run setup.sh
