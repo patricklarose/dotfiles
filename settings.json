@@ -14,6 +14,7 @@
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.smoothScrolling": true,
     "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "telemetry.telemetryLevel": "off",
     "window.zoomLevel": 0,
     "workbench.activityBar.location": "top",
