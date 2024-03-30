@@ -11,6 +11,7 @@ These dotfiles make use of the following packages:
     * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [Vim](https://www.vim.org/)
 * [Git](https://git-scm.com/)
+* [Dracula](https://draculatheme.com)
 
 ## Installation
 
