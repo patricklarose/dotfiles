@@ -22,4 +22,4 @@ for dotfile in "${dotfiles[@]}"; do
 done
 
 # Output success message
-echo "Dotfiles have been linked."
+echo "Dotfiles have been successfully linked!"
