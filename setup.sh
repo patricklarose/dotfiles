@@ -17,9 +17,9 @@ dotfiles=(".zshrc" ".vimrc" ".gitconfig" ".hushlogin" ".macos")
 
 # Loop through the list of dotfiles
 for dotfile in "${dotfiles[@]}"; do
-  # Create a symbolic link in the home directory to the corresponding file in the dotfiles directory
-  echo "Linking $dotfile to home directory."
-  ln -sf $dotfiles_dir/$dotfile $HOME/$dotfile
+    # Create a symbolic link in the home directory to the corresponding file in the dotfiles directory
+    echo "Linking $dotfile to home directory."
+    ln -sf $dotfiles_dir/$dotfile $HOME/$dotfile
 done
 
 # Output success message
