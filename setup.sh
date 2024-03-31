@@ -5,6 +5,7 @@ echo "WARNING! This script will overwrite existing files."
 read -p "Are you sure you want to continue? [y/n]: " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    echo "Operation cancelled. No changes were made."
     exit 1
 fi
 
