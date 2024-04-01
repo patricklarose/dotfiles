@@ -1,11 +1,17 @@
 #!/bin/bash
 
+# Define color variables
+RED='\e[31m'
+YELLOW='\e[33m'
+GREEN='\e[32m'
+NC='\e[0m' # No Color
+
 # Warn user that script will overwrite files
-echo "WARNING! This script will overwrite existing files."
+echo -e "${RED}WARNING!${YELLOW} This script will overwrite existing files.${NC}"
 read -p "Are you sure you want to continue? [y/n]: " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-    echo "Operation cancelled. No changes were made."
+    echo -e "${YELLOW}Operation cancelled. No changes were made.${NC}"
     exit 1
 fi
 
@@ -32,4 +38,4 @@ for dotfile in "${dotfiles[@]}"; do
 done
 
 # Output success message
-echo "Dotfiles have been successfully linked!"
+echo -e "${GREEN}Dotfiles have been successfully linked!${NC}"
