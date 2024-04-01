@@ -1,7 +1,7 @@
 {
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": ["calt", "ss02", "ss03", "ss06", "ss08", "zero"],
+    "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss06', 'ss08', 'zero'",
     "editor.fontSize": 16,
     "editor.fontWeight": "450",
     "editor.minimap.enabled": false,
