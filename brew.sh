@@ -17,6 +17,7 @@ brew install cask \
   virtualbox \
   wireshark \
   anki \
+  obsidian \
   vim \
   docker \
   gnupg \
