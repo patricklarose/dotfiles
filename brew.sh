@@ -29,6 +29,7 @@ brew install cask \
   nmap \
   openvpn \
   speedtest-cli \
+  zotero \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
