@@ -19,6 +19,23 @@ These dotfiles make use of the following packages:
 > [!WARNING]
 > This script will overwrite files. Review code and customize before running.
 
-### Clone repository and run setup.sh
+### Step 1: Clone repository
+```bash
+git clone https://github.com/patricklarose/dotfiles
+```
 
-```git clone https://github.com/patricklarose/dotfiles && cd dotfiles && sh setup.sh```
+### Step 2: Navigate to the dotfiles directory
+```bash 
+cd dotfiles
+```
+
+### Step 3: Grant execution permissions
+```bash
+chmod +x setup.sh
+```
+
+### Step 4: Execute the setup script
+```bash
+./setup.sh
+```
+
