@@ -1,5 +1,5 @@
 # Patrick's dotfiles ⚙️
-My standard configuration files for macOS.
+My macOS configuration files for software engineering, academic research, and educational endeavors.
 
 ![Editing .zshrc file with vim](https://user-images.githubusercontent.com/77698334/181408784-944dd350-1c6a-4d58-ad69-9cd015a275a2.png)
 
