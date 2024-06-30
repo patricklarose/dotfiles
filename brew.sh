@@ -30,6 +30,7 @@ brew install cask \
   openvpn \
   speedtest-cli \
   zotero \
+  hugo \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
