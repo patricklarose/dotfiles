@@ -11,6 +11,12 @@ export LANG=en_US.UTF-8
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}[%{$fg[cyan]%}%n%{$fg[green]%}%{$fg[blue]%} %{$fg[cyan]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
 
+# Options
+setopt SHARE_HISTORY
+setopt INC_APPEND_HISTORY
+setopt AUTO_CD
+setopt NO_BEEP
+
 # Basic auto/tab complete
 autoload -U compinit && compinit
 zstyle ':completion:*' menu select
