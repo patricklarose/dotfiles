@@ -1,6 +1,12 @@
 # Path
 export PATH="/usr/local/sbin:$PATH"
 
+# Environment Variables
+export EDITOR=vim
+export VISUAL=vim
+export PAGER=less
+export LANG=en_US.UTF-8
+
 # Colors
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}[%{$fg[cyan]%}%n%{$fg[green]%}%{$fg[blue]%} %{$fg[cyan]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
