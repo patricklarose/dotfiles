@@ -40,6 +40,31 @@ RPROMPT='${vcs_info_msg_0_}'
 #PROMPT='${vcs_info_msg_0_}%# '
 zstyle ':vcs_info:git:*' formats '%b'
 
+# Shell Functions
+extract () {
+    if [ -f "$1" ] ; then
+        case "$1" in
+            *.tar.bz2|*.tbz2)  tar xvjf "$1"    ;;
+            *.tar.gz|*.tgz)    tar xvzf "$1"    ;;
+            *.tar.xz|*.txz)    tar xvJf "$1"    ;;
+            *.tar.zma|*.tlz)   tar --lzma -xvf "$1" ;;
+            *.tar)             tar xvf "$1"     ;;
+            *.bz2)             bunzip2 "$1"     ;;
+            *.rar)             unrar x "$1"     ;;
+            *.gz)              gunzip "$1"      ;;
+            *.zip)             unzip "$1"       ;;
+            *.z)               uncompress "$1"  ;;
+            *.7z)              7z x "$1"        ;;
+            *.xz)              unxz "$1"        ;;
+            *.lzma)            unlzma "$1"      ;;
+            *.cab)             cabextract "$1"  ;;
+            *)                 echo "'$1' cannot be extracted via extract()" ;;
+        esac
+    else
+        echo "'$1' is not a valid file!"
+    fi
+}
+
 # Alias
 alias ls="ls -G"
 alias ll="ls -Galh"
