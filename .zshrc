@@ -16,6 +16,7 @@ setopt SHARE_HISTORY
 setopt INC_APPEND_HISTORY
 setopt AUTO_CD
 setopt NO_BEEP
+setopt HIST_IGNORE_SPACE
 
 # Basic auto/tab complete
 autoload -U compinit && compinit
