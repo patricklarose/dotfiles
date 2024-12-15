@@ -14,6 +14,7 @@ brew install cask \
   visual-studio-code \
   audacity \
   vlc \
+  ffmpeg \
   virtualbox \
   wireshark \
   anki \
