@@ -32,6 +32,7 @@ brew install cask \
   speedtest-cli \
   zotero \
   hugo \
+  git \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
