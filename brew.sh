@@ -33,6 +33,7 @@ brew install cask \
   zotero \
   hugo \
   git \
+  calibre \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
