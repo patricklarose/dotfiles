@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if ! command -v code &> /dev/null; then
+    echo "Error: Visual Studio Code is not installed or 'code' is not in PATH"
+    exit 1
+fi
+
 extensions=(
     "ms-python.python"
     "ms-toolsai.jupyter"
