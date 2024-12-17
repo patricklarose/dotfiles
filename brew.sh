@@ -34,6 +34,7 @@ brew install cask \
   hugo \
   git \
   calibre \
+  cura \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
