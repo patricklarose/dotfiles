@@ -35,6 +35,7 @@ brew install cask \
   git \
   calibre \
   cura \
+  node \
   httpd \
   php \
   mysql \
