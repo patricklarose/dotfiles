@@ -6,6 +6,8 @@
     "editor.fontWeight": "450",
     "editor.minimap.enabled": false,
     "editor.smoothScrolling": true,
+    "editor.renderWhitespace": "selection",
+    "editor.renderControlCharacters": true,
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
     "explorer.confirmDelete": true,
