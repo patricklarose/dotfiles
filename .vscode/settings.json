@@ -8,6 +8,8 @@
     "editor.smoothScrolling": true,
     "editor.renderWhitespace": "selection",
     "editor.renderControlCharacters": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.matchBrackets": "always",
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
     "explorer.confirmDelete": true,
