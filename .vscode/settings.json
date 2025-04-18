@@ -56,6 +56,7 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.telemetryLevel": "off",
+    "telemetry.feedback.enabled": false,
 
     // Workbench
     "workbench.activityBar.location": "top",
