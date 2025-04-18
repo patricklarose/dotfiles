@@ -22,6 +22,17 @@
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
     "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/Thumbs.db": true,
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true
+    },
     "terminal.integrated.smoothScrolling": true,
     "terminal.integrated.fontFamily": "'Fira Code Retina', monospace",
     "terminal.integrated.cursorBlinking": true,
