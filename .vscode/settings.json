@@ -1,9 +1,10 @@
 {
-    "editor.cursorSmoothCaretAnimation": "on",
+    // Editor
     "editor.fontFamily": "'Fira Code Retina', 'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss06', 'ss08', 'zero'",
     "editor.fontSize": 16,
     "editor.fontWeight": "450",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.minimap.enabled": false,
     "editor.smoothScrolling": true,
     "editor.renderWhitespace": "selection",
@@ -12,35 +13,51 @@
     "editor.matchBrackets": "always",
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
+    "window.zoomLevel": 0,
+    
+    // Code formatting
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     },
     "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
+
+    // Explorer
     "explorer.confirmDelete": true,
     "explorer.confirmDragAndDrop": false,
+
+    // Extensions
     "extensions.ignoreRecommendations": true,
+
+    // Files
     "files.trimTrailingWhitespace": true,
     "files.exclude": {
         "**/.DS_Store": true,
         "**/node_modules": true,
         "**/dist": true,
-        "**/Thumbs.db": true,
+        "**/Thumbs.db": true
     },
+
+    // Search
     "search.exclude": {
         "**/node_modules": true,
         "**/dist": true,
         "**/build": true
     },
-    "terminal.integrated.smoothScrolling": true,
+
+    // Terminal
     "terminal.integrated.fontFamily": "'Fira Code Retina', monospace",
+    "terminal.integrated.smoothScrolling": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.scrollback": 1000,
+
+    // Telemetry
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.telemetryLevel": "off",
-    "window.zoomLevel": 0,
+
+    // Workbench
     "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Dracula",
     "workbench.list.smoothScrolling": true,
