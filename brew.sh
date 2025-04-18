@@ -35,6 +35,10 @@ brew install cask \
   git \
   calibre \
   cura \
+  httpd \
+  php \
+  mysql \
+  phpmyadmin \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
