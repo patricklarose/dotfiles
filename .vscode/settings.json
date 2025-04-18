@@ -12,6 +12,12 @@
     "editor.matchBrackets": "always",
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
     "explorer.confirmDelete": true,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
