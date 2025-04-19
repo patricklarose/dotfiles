@@ -62,6 +62,7 @@
     "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Dracula",
     "workbench.preferredDarkColorTheme": "Dracula Theme",
+    "window.autoDetectColorScheme": true,
     "workbench.iconTheme": "vs-seti",
     "workbench.list.smoothScrolling": true,
     "workbench.layoutControl.enabled": false,
