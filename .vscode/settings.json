@@ -61,6 +61,7 @@
     // Workbench
     "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Dracula",
+    "workbench.preferredDarkColorTheme": "Dracula Theme",
     "workbench.list.smoothScrolling": true,
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none"
