@@ -43,7 +43,8 @@ brew install cask \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
-  font-fira-code
+  font-fira-code \
+  font-ibm-plex-mono
 
 # Delete old and unused formulas/casks
 brew cleanup
