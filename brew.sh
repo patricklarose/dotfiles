@@ -44,7 +44,8 @@ brew install cask \
   zsh-syntax-highlighting \
   font-source-code-pro \
   font-fira-code \
-  font-ibm-plex-mono
+  font-ibm-plex-mono \
+  font-terminus
 
 # Delete old and unused formulas/casks
 brew cleanup
