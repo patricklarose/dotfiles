@@ -45,7 +45,8 @@ brew install cask \
   font-source-code-pro \
   font-fira-code \
   font-ibm-plex-mono \
-  font-terminus
+  font-terminus \
+  font-departure-mono
 
 # Delete old and unused formulas/casks
 brew cleanup
