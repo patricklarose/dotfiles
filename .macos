@@ -62,3 +62,6 @@ defaults write com.apple.dock show-recents -bool false
 
 # Silence the "chime" when changing volume
 defaults write com.apple.sound.beep.feedback -bool false
+
+# Disable automatic capitalization
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
