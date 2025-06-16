@@ -53,3 +53,6 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 # Show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Show all filename extensions in Finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
