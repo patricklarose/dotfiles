@@ -68,3 +68,6 @@ defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
 # Disable automatic period
 defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
