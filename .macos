@@ -71,3 +71,6 @@ defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Set default Finder view to list view
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
