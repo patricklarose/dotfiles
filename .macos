@@ -65,3 +65,6 @@ defaults write com.apple.sound.beep.feedback -bool false
 
 # Disable automatic capitalization
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Disable automatic period
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
