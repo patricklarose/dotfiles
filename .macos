@@ -59,3 +59,6 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Disable recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
+
+# Silence the "chime" when changing volume
+defaults write com.apple.sound.beep.feedback -bool false
