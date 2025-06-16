@@ -56,3 +56,6 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Show all filename extensions in Finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Disable recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
