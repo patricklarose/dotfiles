@@ -46,7 +46,10 @@ brew install cask \
   font-fira-code \
   font-ibm-plex-mono \
   font-terminus \
-  font-departure-mono
+  font-departure-mono \
+  font-jetbrains-mono \
+  font-cascadia-code \  
+  font-ubuntu-mono
 
 # Delete old and unused formulas/casks
 brew cleanup
