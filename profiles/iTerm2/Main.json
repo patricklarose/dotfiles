@@ -97,7 +97,7 @@
     "Green Component" : 1
   },
   "Use Cursor Guide (Light)" : false,
-  "Option Key Sends" : 0,
+  "Option Key Sends" : 2,
   "Idle Code" : 0,
   "Ansi 13 Color (Dark)" : {
     "Green Component" : 0.47450980392156861,
