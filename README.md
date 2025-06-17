@@ -1,5 +1,5 @@
 # Patrick's dotfiles ⚙️
-My macOS configuration files for software engineering, academic research, and educational endeavors.
+Minimal, simple macOS dotfiles for software development, studying, and personal use.
 
 ![Editing .zshrc file using Vim in iTerm2](https://github.com/user-attachments/assets/4534385a-4066-4b5b-b804-d503d6d1aeeb)
 
