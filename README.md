@@ -17,7 +17,7 @@ These dotfiles make use of the following packages:
 ## Installation
 
 > [!WARNING]
-> This script will overwrite files. Review code and customize before running.
+> This script will overwrite existing configuration files. Although it creates a backup of any existing files it replaces, review and customize the code before running.
 
 ### Step 1: Clone repository
 ```bash
