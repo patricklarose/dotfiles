@@ -1,7 +1,7 @@
 # Patrick's dotfiles ⚙️
 My macOS configuration files for software engineering, academic research, and educational endeavors.
 
-![Editing .zshrc file with vim](https://user-images.githubusercontent.com/77698334/181408784-944dd350-1c6a-4d58-ad69-9cd015a275a2.png)
+![Editing .zshrc file using Vim in iTerm2](https://github.com/user-attachments/assets/4534385a-4066-4b5b-b804-d503d6d1aeeb)
 
 ## Dependencies
 These dotfiles make use of the following packages:
