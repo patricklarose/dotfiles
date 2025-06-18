@@ -9,6 +9,7 @@ These dotfiles make use of the following packages:
 * [Zsh](https://www.zsh.org/)
     * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
     * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+    * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 * [Vim](https://www.vim.org/)
 * [Git](https://git-scm.com/)
 * [VS Code](https://code.visualstudio.com/)
