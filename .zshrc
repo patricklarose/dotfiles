@@ -1,22 +1,16 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Path
 export PATH="/usr/local/sbin:$PATH"
-
-# Environment Variables
-export EDITOR=vim
-export VISUAL=vim
-export PAGER=less
-export LANG=en_US.UTF-8
 
 # Colors
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}[%{$fg[cyan]%}%n%{$fg[green]%}%{$fg[blue]%} %{$fg[cyan]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
-
-# Options
-setopt SHARE_HISTORY
-setopt INC_APPEND_HISTORY
-setopt AUTO_CD
-setopt NO_BEEP
-setopt HIST_IGNORE_SPACE
 
 # Basic auto/tab complete
 autoload -U compinit && compinit
@@ -32,6 +26,13 @@ zle_highlight=('paste:none')
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Options
+setopt SHARE_HISTORY
+setopt INC_APPEND_HISTORY
+setopt AUTO_CD
+setopt NO_BEEP
+setopt HIST_IGNORE_SPACE
+
 # Git
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
@@ -40,31 +41,6 @@ setopt prompt_subst
 RPROMPT='${vcs_info_msg_0_}'
 #PROMPT='${vcs_info_msg_0_}%# '
 zstyle ':vcs_info:git:*' formats '%b'
-
-# Shell Functions
-extract () {
-    if [ -f "$1" ] ; then
-        case "$1" in
-            *.tar.bz2|*.tbz2)  tar xvjf "$1"    ;;
-            *.tar.gz|*.tgz)    tar xvzf "$1"    ;;
-            *.tar.xz|*.txz)    tar xvJf "$1"    ;;
-            *.tar.zma|*.tlz)   tar --lzma -xvf "$1" ;;
-            *.tar)             tar xvf "$1"     ;;
-            *.bz2)             bunzip2 "$1"     ;;
-            *.rar)             unrar x "$1"     ;;
-            *.gz)              gunzip "$1"      ;;
-            *.zip)             unzip "$1"       ;;
-            *.z)               uncompress "$1"  ;;
-            *.7z)              7z x "$1"        ;;
-            *.xz)              unxz "$1"        ;;
-            *.lzma)            unlzma "$1"      ;;
-            *.cab)             cabextract "$1"  ;;
-            *)                 echo "'$1' cannot be extracted via extract()" ;;
-        esac
-    else
-        echo "'$1' is not a valid file!"
-    fi
-}
 
 # Alias
 alias ls="ls -G"
@@ -80,7 +56,12 @@ alias p1="ping 1.1.1.1"
 alias pg="ping google.com"
 alias lnfix="find -L . -name . -o -type d -prune -o -type l -exec rm {} +"
 alias fixdisk="sudo diskutil unmountDisk force /dev/disk2 && sudo pkill -f fsck"
-alias cp="rsync -ah --progress"
-alias mv="rsync -ah --progress --remove-source-files"
+#alias cp="rsync -ah --progress"
+#alias mv="rsync -ah --progress --remove-source-files"
 alias shredder="shred -n10 -uzfv"
 alias h="history"
+#alias ..="cd .."
+source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
