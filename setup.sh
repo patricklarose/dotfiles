@@ -23,7 +23,7 @@ backup_dir="$HOME/dotfiles_backup"
 mkdir -p "$backup_dir"
 
 # Define the list of dotfiles to manage
-dotfiles=(".zshrc" ".vimrc" ".gitconfig" ".hushlogin" ".macos")
+dotfiles=(".zshrc" ".p10k.zsh" ".vimrc" ".gitconfig" ".hushlogin" ".macos")
 
 # Loop through the list of dotfiles
 for dotfile in "${dotfiles[@]}"; do
