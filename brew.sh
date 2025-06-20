@@ -40,6 +40,7 @@ brew install cask \
   php \
   mysql \
   phpmyadmin \
+  coreutils \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
