@@ -7,7 +7,6 @@ fi
 
 brew analytics off
 
-# Update and upgrade Homebrew
 brew update && brew upgrade
 
 # Install applications
