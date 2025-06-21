@@ -5,6 +5,7 @@
     aliases = config --get-regexp alias
     whoami = config user.email
     uncommit = reset --soft HEAD^
+    unstage = reset HEAD --
 
 [commit]
     gpgsign = true
