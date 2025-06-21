@@ -4,6 +4,7 @@
     contributors = shortlog --summary --numbered
     aliases = config --get-regexp alias
     whoami = config user.email
+    uncommit = reset --soft HEAD^
 
 [commit]
     gpgsign = true
