@@ -60,6 +60,8 @@ alias shredder="shred -n10 -uzfv"
 alias h="history"
 alias v="vim"
 alias vi="vim"
+alias weather="curl 'wttr.in/?1qFn'"
+alias moon="curl 'wttr.in/moon?F'"
 
 source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
