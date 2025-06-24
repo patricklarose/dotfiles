@@ -42,6 +42,7 @@ brew install cask \
   mysql \
   phpmyadmin \
   coreutils \
+  proxychains-ng \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
   font-source-code-pro \
