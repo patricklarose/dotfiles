@@ -58,6 +58,9 @@ alias lnfix="find -L . -name . -o -type d -prune -o -type l -exec rm {} +"
 alias fixdisk="sudo diskutil unmountDisk force /dev/disk2 && sudo pkill -f fsck"
 alias shredder="shred -n10 -uzfv"
 alias h="history"
+alias v="vim"
+alias vi="vim"
+
 source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
