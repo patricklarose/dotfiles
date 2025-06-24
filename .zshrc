@@ -62,6 +62,7 @@ alias v="vim"
 alias vi="vim"
 alias weather="curl 'wttr.in/?1qFn'"
 alias moon="curl 'wttr.in/moon?F'"
+cheat() { curl "https://cheat.sh/${1}"; }
 
 source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
