@@ -25,6 +25,7 @@ zle_highlight=('paste:none')
 # Plugins
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # Options
 setopt SHARE_HISTORY
@@ -63,8 +64,6 @@ alias vi="vim"
 alias weather="curl 'wttr.in/?1qFn'"
 alias moon="curl 'wttr.in/moon?F'"
 cheat() { curl "https://cheat.sh/${1}"; }
-
-source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
