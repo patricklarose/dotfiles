@@ -8,11 +8,11 @@ fi
 # Path
 export PATH="/usr/local/sbin:$PATH"
 
-# Colors
+# Prompt & Colors
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}[%{$fg[cyan]%}%n%{$fg[green]%}%{$fg[blue]%} %{$fg[cyan]%}%~%{$fg[green]%}]%{$reset_color%}$%b "
 
-# Basic auto/tab complete
+# Tab completion
 autoload -U compinit && compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
@@ -34,7 +34,7 @@ setopt AUTO_CD
 setopt NO_BEEP
 setopt HIST_IGNORE_SPACE
 
-# Git
+# Git info in prompt
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
@@ -43,7 +43,7 @@ RPROMPT='${vcs_info_msg_0_}'
 #PROMPT='${vcs_info_msg_0_}%# '
 zstyle ':vcs_info:git:*' formats '%b'
 
-# Alias
+# Aliases
 alias ls="ls -G"
 alias ll="ls -Galh"
 alias c="clear"
