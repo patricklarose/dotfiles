@@ -63,6 +63,7 @@ alias weather="curl 'wttr.in/?1qFn'"
 alias moon="curl 'wttr.in/moon?F'"
 cheat() { curl "https://cheat.sh/${1}"; }
 
+# Functions
 # Show top 10 most used commands
 topcmds() {
   history \
