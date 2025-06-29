@@ -63,5 +63,20 @@ alias weather="curl 'wttr.in/?1qFn'"
 alias moon="curl 'wttr.in/moon?F'"
 cheat() { curl "https://cheat.sh/${1}"; }
 
+# Show top 10 most used commands
+topcmds() {
+  history \
+  | awk '{ CMD[$2]++; total++ } 
+        END { 
+          for (cmd in CMD) 
+            printf "%d %.2f%% %s\n", CMD[cmd], CMD[cmd]/total*100, cmd 
+        }' \
+  | grep -v './' \
+  | column -t -s ' ' \
+  | sort -nr \
+  | nl \
+  | head -n10
+}
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
