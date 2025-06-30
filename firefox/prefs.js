@@ -84,6 +84,8 @@ user_pref("security.ssl.disable_session_identifiers", true);
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSite", false);
 user_pref("signon.autofillForms", false);
 user_pref("signon.rememberSignons", false);
+user_pref("toolkit.coverage.opt-out", true);
+user_pref("toolkit.coverage.endpoint.base", "");
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
 user_pref("toolkit.telemetry.cachedClientID", "");
